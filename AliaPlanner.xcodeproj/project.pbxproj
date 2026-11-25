@@ -1,0 +1,70 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* AliaPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* AliaPlannerApp.swift */; };
+		A10000010000000000000002 /* PlannerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* PlannerModels.swift */; };
+		A10000010000000000000003 /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* PlannerView.swift */; };
+		A10000010000000000000004 /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* ReminderManager.swift */; };
+		A10000010000000000000006 /* AccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* AccountStore.swift */; };
+		A10000010000000000000007 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* AccountView.swift */; };
+		A10000010000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* AliaPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliaPlannerApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* PlannerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerModels.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* ReminderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000010000000000000006 /* AliaPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliaPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000010000000000000007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000010000000000000008 /* AccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000010000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000010000000000000001 = {isa = PBXGroup; children = ( A40000010000000000000002, A40000010000000000000003, ); sourceTree = "<group>"; };
+		A40000010000000000000002 /* AliaPlanner */ = {isa = PBXGroup; children = ( A20000010000000000000001, A20000010000000000000002, A20000010000000000000003, A20000010000000000000004, A20000010000000000000005, A20000010000000000000007, A20000010000000000000008, A20000010000000000000009, ); path = .; sourceTree = "<group>"; };
+		A40000010000000000000003 /* Products */ = {isa = PBXGroup; children = ( A20000010000000000000006, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000010000000000000001 /* AliaPlanner */ = {isa = PBXNativeTarget; buildConfigurationList = A60000010000000000000002 /* Build configuration list for PBXNativeTarget "AliaPlanner" */; buildPhases = ( A30000010000000000000002, A30000010000000000000001, A30000010000000000000003, ); buildRules = ( ); dependencies = ( ); name = AliaPlanner; productName = AliaPlanner; productReference = A20000010000000000000006 /* AliaPlanner.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70000010000000000000001 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 2700; TargetAttributes = { A50000010000000000000001 = { CreatedOnToolsVersion = 27.0; }; }; }; buildConfigurationList = A60000010000000000000001 /* Build configuration list for PBXProject "AliaPlanner" */; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en, Base, ); mainGroup = A40000010000000000000001; productRefGroup = A40000010000000000000003 /* Products */; projectDirPath = ""; projectRoot = ""; targets = ( A50000010000000000000001 /* AliaPlanner */ ); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000010000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( A10000010000000000000001, A10000010000000000000002, A10000010000000000000003, A10000010000000000000004, A10000010000000000000006, A10000010000000000000007, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30000010000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( A10000010000000000000005, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000010000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.AliaPlanner; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		A80000010000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.AliaPlanner; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		A80000010000000000000003 /* Debug target */ = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.AliaPlanner; }; name = Debug; };
+		A80000010000000000000004 /* Release target */ = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.AliaPlanner; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000010000000000000001 /* Build configuration list for PBXProject "AliaPlanner" */ = {isa = XCConfigurationList; buildConfigurations = ( A80000010000000000000001, A80000010000000000000002, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A60000010000000000000002 /* Build configuration list for PBXNativeTarget "AliaPlanner" */ = {isa = XCConfigurationList; buildConfigurations = ( A80000010000000000000003, A80000010000000000000004, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A70000010000000000000001 /* Project object */;
+}
